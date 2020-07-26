@@ -3,10 +3,10 @@
     if(isset($_POST['submit']))
         {
         //
-                $server="localhost";
-                $username="root";
-                $password="";
-                $database = "travel";
+                $server="*************";
+                $username="***********";
+                $password="********";
+                $database = "*********";
                 //creting connection
 
                 $conn =mysqli_connect($server, $username, $password,$database);
